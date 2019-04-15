@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<title>My Web Site</title>
+</head>
+
+<body id="firstbody">
+
+<center>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	<div class="container-fluid">
+    <ul class="navbar-nav">
+ 	  <li class="nav-item active">
+ 		<a class="nav-link" href = "index.htm">HOMEPAGE </a>
+ 	 </li>
+ 	<li class="nav-item">
+ 		<a class="nav-link" href = "films.htm">FILMS </a>
+ 	</li>
+ 	<li class="nav-item">
+ 		<a class="nav-link" href = "books.htm">BOOKS </a>
+ 	</li>
+ 	<li class="nav-item">
+ 		<a class="nav-link" href = "musics.htm">MUSICS </a>
+ 	</li>
+ 	<li class="nav-item">
+ 		<a class="nav-link" href = "usefullinks.htm">USEFUL LINKS </a>
+ 	</li>
+ 	<li class="nav-item">
+ 		<a class="nav-link" href = "contactme.htm">CONTACT ME </a>
+ 	</li>
+ 	<li class="nav-item">
+ 		<a class="nav-link" href = "register.htm">REGISTER</a>
+ 	</li>
+ </ul>
+</div>
+</nav>
+
+<div class="container">
+<figure id="picture">
+    <img src="https://harveymilk.com/wp-content/uploads/2017/09/Welcome.png" alt = "WELCOME" style="max-width: 50%; height: auto; overflow: auto;">
+</figure>
+
+<form action="action_page.php" method="POST">
+	<div class="form-group">
+	<label for="username" style=" color: purple; font-size: 25px;"><b>Username:</b></label>
+	<input type="text" class="form-control" id="username" name="username" placeholder="Enter Username">
+</div>
+
+<div class="form-group">
+	<label for="password" style=" color: purple; font-size: 25px;"><b>Password:</b></label>
+	<input type="password" class="form-control" id="password" name="password" placeholder="Enter Password"><br>
+</div>
+
+	<button type="submit" class="btn btn-primary" style="background-color: black;">Submit</button>
+</form><br><br>
+ </div>
+	<h2>About Me</h2>
+
+	<p>You may write anything about yourself.<br>If you want to contact me, please click <a href="contactme.htm" style="color: purple;">'Contact Me'</font></a> page.</p>
+
+</center>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<title>Register</title>
+</head>
+
+<body style="background-color: rgb(106,90,205);">
+	 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+    <ul class="navbar-nav" style="font-family: 'Aclonica';">
+      <li class="nav-item">
+        <a class="nav-link" href = "index.htm">HOMEPAGE </a>
+     </li>
+    <li class="nav-item">
+        <a class="nav-link" href = "films.htm">FILMS </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href = "books.htm">BOOKS </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href = "musics.htm">MUSICS </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href = "usefullinks.htm">USEFUL LINKS </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href = "contactme.htm">CONTACT ME </a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href = "register.htm">REGISTER</a>
+    </li>
+ </ul>
+</div>
+</nav>
+		<br><br>
+		<div class="row">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">
+		<div class="container">
+		<form action="action.php" method="POST">
+
+		<div class="form-group">
+		<label for="firstname"><b>Firstname :</b></label>
+		<input type="string" class="form-control" id="fullname" name="firstname"><br>
+	</div>
+
+		<div class="form-group">
+		<label for="lastname"><b>Lastname :</b></label>
+		<input type="string" class="form-control" id="lastname" name="lastname"><br>
+	</div>
+
+		<div class="form-group">
+		<label for="birthdate"><b>Date of Birth:</b></label>
+		<input type="date" class="form-control" id="birthdate" name ="birthdate"><br>
+	</div>
+
+		<div class="form-group">
+		<label for="email"><b>Email:</b></label>
+		<input type="email" class="form-control" id="email" name ="email"><br>
+	</div>
+
+		<div class="form-group">
+		<label for="password"><b>Password:</b></label>
+		<input type="password" class="form-control" id="password" name ="password"><br>
+	</div>
+
+		<div class="form-group">
+		<label for="gender"><b>Gender:</b></label>
+		<select name="gender" class="form-control" none>
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		</select><br>
+	</div>
+
+		<div class="form-group">
+		<label for="aboutme"><b>About Me:</b></label>
+		<textarea class="form-control" rows="5" cols="20" name="aboutme"></textarea><br>
+	</div>
+
+		<div class="form-group">
+		<p><b>Upload Your Photo: <input type="file" class="form-control" name="fileToUpload"><input type="submit" value="Upload Photo"></b></p><br>
+	</div>
+
+		<p><b>Mark Your Interest:</b></p>
+		<div class="form-check-inline">
+		<label for="check1">
+		<input type="checkbox" class="form-control" name="reading book" id="interests">Reading Book
+	</label>
+	</div>
+
+		<div class="form-check-inline">
+		<label for="check1">
+		<input type="checkbox" class="form-control" name="movies" id="interests">Movies
+		</label>
+	</div>
+
+		<div class="form-check-inline">
+		<label for="check2">
+		<input type="checkbox" class="form-control" name="programming" id="interests">Programming
+		</label>
+	</div>
+
+		<div class="form-check-inline">
+		<label for="check3">
+		<input type="checkbox" class="form-control" name="space" id="interests">Space
+		</label>
+	</div>
+
+		<div class="form-check-inline">
+		<label for="check4">
+		<input type="checkbox" class="form-control" name="technology" id="interests">Technology
+		</label>
+	</div>
+
+		<div class="form-check-inline">
+		<label for="check5">
+		<input type="checkbox" class="form-control" name="musics" id="interests">Musics
+		</label>
+	</div>
+
+		<div class="form-check-inline">
+		<label for="check6">
+		<input type="checkbox" class="form-control" name="Animals" id="interests">Animals
+		</label>
+	</div>
+
+		<div class="form-check-inline">
+		<label for="check7">
+		<input type="checkbox" class="form-control" name="politics" id="interests">Politics
+		</label>
+	</div>
+
+		<div class="form-check-inline">
+		<label for="check8">
+		<input type="checkbox" class="form-control" name="Auto" id="interests">Auto
+		</label>
+	</div><br>
+<center>
+		<button type="button" class="btn btn-primary" onclick="alert('Thanks for registration!')">Submit</button><br><br>
+		<input type="reset" class="btn btn-dark" value="Reset"><br><br>
+		<a href="index.htm"><img src="https://cdn2.iconfinder.com/data/icons/device-color/512/Untitled-21-512.png" style="width: 60px; height: 60px;"></a><br><br>
+	</center>
+	</form>
+</div>
+</div>
+</div>
+</body>
+</html>

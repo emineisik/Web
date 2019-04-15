@@ -1,0 +1,83 @@
+ul.navbar-nav{
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	top: 0;
+	overflow: hidden;
+}
+
+li.nav-item{
+	float: left;
+}
+
+
+li.nav-item:last-child {
+  border-right: none;
+}
+
+li.nav-item a{
+	display: block;
+	color: #666;
+	text-align: center;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+li.nav-item a:hover:not(.active){
+	background-color: rgb(120,120,120);
+}
+
+.active{
+	background-color:rgb(230,100,0);
+}
+
+@media screen and (max-width: 800px;){
+    nav.navbar li{
+    	float: none;
+    	text-align: center;
+    }
+    iframe{
+    	size: 100% auto;
+    }
+}
+
+#firstbody{
+	font-family: 'Aclonica';
+	background-color: rgb(255,173,172); 
+	margin:0;
+}
+#secondbody{
+
+   	background-image:url(mucize.jpg),url(http://2.bp.blogspot.com/-T0sgfJx6n7g/T0xS4Cf-G-I/AAAAAAAAB2Y/H0BhvMTss0c/s1600/HarryPotter.jpg),url(https://venturebeat.com/wp-content/uploads/2017/11/coco-vr.jpg?w=1200&strip=all), url(http://hylandsestate.co.uk/wp-content/uploads/2018/09/40882634_1918052628491000_6366884404630913024_n.jpg),url(https://dusunbil.com/wp-content/uploads/2017/08/12k%C4%B1zg%C4%B1nadam.jpg),url(https://i.cnnturk.com/ps/cnnturk/75/1200x0/5a50de6461361f2450358f1a.jpg);
+    background-size:100% 20%,100% 19.5%, 100% 19%, 100% 18.5%, 100% 18%, 100% 22%;
+    background-position: 0px 0px, 0px 670px, 0px 1340px, 0px 2010px, 0px 2680px, 0px 3350px;
+    background-repeat: no-repeat;
+     font-family: 'Aclonica';
+	
+}
+
+#thirdbody{
+    background: url(http://www.resimrehberi.com/files/file/1194e20cb.jpg) no-repeat center fixed;
+    background-size: cover;
+	font-family: 'Baumans';
+	font-size: 18px;
+	}
+
+.quote{
+	font-family: 'Caveat Brush';
+	font-size: 22px;
+	}
+
+.d1{
+	border: 3px solid black;
+	}
+#fifthbody{
+	background: url(http://backgrounddownload.com/wp-content/uploads/2018/09/music-background-wallpaper-tumblr-4.jpg)no-repeat center fixed;
+    background-size: cover;
+}
+
+#sixthbody{
+	background-color: rgb(60,60,60);
+	font-family: 'Aclonica'
+}

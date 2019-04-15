@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<title>Contact Me</title>
+</head>
+
+<body style="background-color: rgb(240,240,180);">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+    <ul class="navbar-nav" style="font-family: 'Aclonica';">
+      <li class="nav-item">
+        <a class="nav-link" href = "index.htm">HOMEPAGE </a>
+     </li>
+    <li class="nav-item">
+        <a class="nav-link" href = "films.htm">FILMS </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href = "books.htm">BOOKS </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href = "musics.htm">MUSICS </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href = "usefullinks.htm">USEFUL LINKS </a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href = "contactme.htm">CONTACT ME </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href = "register.htm">REGISTER</a>
+    </li>
+ </ul>
+</div>
+</nav>
+<center>
+
+  <br><br>
+  <div class="row">
+  <div class="col-sm-4"></div>
+
+  <div class="col-sm-4">
+  <div class="container">
+  <form action="action_page.php" method="POST">
+
+    <div class="form-group">
+  	<label for="fullname"><b>Name,Surname:</b></label>
+  	<input type="text" class="form-control" id="fullname" name="fullname" placeholder="Enter Fullname">
+  </div>
+
+   <div class="form-group">
+  	<label for="email"><b>E-mail:</b></label>
+  	<input type="email" class="form-control" id="email" name="email" placeholder="Enter E-mail">
+  </div>
+
+ <div class="form-group">
+  	<label for="telephone"><b>Telephone:</b></label>
+  	<input type="tel" class="form-control" id="telephone" name="telephone" placeholder="Max length is 11">
+  </div>
+
+ <div class="form-group">
+  	<label for="issue"><b>Issue:</b></label>
+  	<input type="string" class="form-control" id="issue" name="issue">
+  </div>
+  
+   <div class="form-group">
+    <label for="message"><b>Message:</b></label>
+    <textarea class="form-control" rows="5" cols="25" name="message" ></textarea>
+  </div>
+    <button type="button" class="btn btn-primary" onclick="alert('Your message is send!')">Submit</button><br><br><br>
+</form>
+</div>
+</div>
+</div>
+
+    <h3><b>OR</b></h3>
+
+    <p>If you want to contact me, please click to the adress below:</p><br>
+    <button type="button" class="btn btn-info"><a href="mailto:emine.26.1998@hotmail.com" target="_blank;" style="color: black;">emine.26.1998@hotmail.com</a></button><br><br><br>
+
+    <a href="index.htm"><img src="https://cdn2.iconfinder.com/data/icons/device-color/512/Untitled-21-512.png" style="width: 50px; height: 50px;"></a><br><br>
+
+    <a href="https://www.facebook.com/profile.php?id=100000790740932&ref=bookmarks"target="_blank;"><img src="https://www.facebook.com/images/fb_icon_325x325.png" style="width: 40px; height: 40px;"></a>
+
+    <a href="mailto:emine.isik.98@gmail.com"target="_blank;"><img src="https://www.lifewire.com/thmb/Oss6yGDtKDccpVIjhRHUNPTbapk=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/gmail-logo-5806b2d35f9b5805c2886021.png" style="width: 40px; height: 40px;"></a>
+
+    <a href="https://www.instagram.com/emine_isik_20/?hl=tr"target="_blank;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/240px-Instagram_logo_2016.svg.png" style="width: 42px;height: 42px;"></a>
+
+</center>
+
+</body>
+</html>
