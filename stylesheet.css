@@ -1,8 +1,7 @@
 ul.navbar-nav{
-	font-size: 15px;
+	font-size: 20px;
 	padding: 0;
 	margin: 0;
-	width: 100%;
 	top: 0;
 	overflow: hidden;
 }
@@ -20,9 +19,10 @@ li.nav-item a{
 	display: block;
 	color: #666;
 	text-align: center;
-	padding: 10px 15px;
+	margin-right: 30px;
+	margin-left: 40px;
 	text-decoration: none;
-}
+	}
 
 li.nav-item a:hover:not(.active){
 	background-color: rgb(120,120,120);
@@ -30,16 +30,6 @@ li.nav-item a:hover:not(.active){
 
 .active{
 	background-color:rgb(230,100,0);
-}
-
-@media screen and (max-width: 800px;){
-    nav.navbar li{
-    	float: none;
-    	text-align: center;
-    }
-    iframe{
-    	size: 100% auto;
-    }
 }
 
 #firstbody{
@@ -53,7 +43,7 @@ li.nav-item a:hover:not(.active){
     background-size:100% 20%,100% 19.5%, 100% 19%, 100% 18.5%, 100% 18%, 100% 22%;
     background-position: 0px 0px, 0px 670px, 0px 1340px, 0px 2010px, 0px 2680px, 0px 3350px;
     background-repeat: no-repeat;
-     font-family: 'Aclonica';
+    font-family: 'Aclonica';
 	
 }
 
@@ -80,4 +70,20 @@ li.nav-item a:hover:not(.active){
 #sixthbody{
 	background-color: rgb(60,60,60);
 	font-family: 'Aclonica'
+}
+@media screen and (max-width: 767px;){
+    nav.navbar li{
+    	float: none;
+    	text-align: center;
+    }
+    iframe{
+    	width:100%;
+    }
+    img{
+    	width:100%;
+    }
+    #secondbody, #thirdbody, #fifthbody{
+    	width: 100%;
+    }
+
 }
